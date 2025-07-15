@@ -1,50 +1,52 @@
-<<<<<<< HEAD
-# 🛒 Product Card UI – Frontend Developer Test
+# product-card-demo
 
-This is a **responsive Product Card** UI built using React. It is part of a frontend test assignment to implement a reusable product listing component based on real-world e-commerce logic.
-
----
-
-## 🎯 Features
-
-- Product image display
-- Product name and price
-- Variant dropdown selection
-- Add to Cart button
-- Handles Out-of-Stock state
-- Responsive design with Bootstrap and custom CSS
+This is a **responsive Product Card** UI built using React as part of a frontend developer test.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- React (CRA)
+- React (Create React App)
 - Bootstrap 5
-- CSS (modular)
+- CSS
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Node.js
 - npm
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ```bash
-# Step 1: Create React App
-npx create-react-app product-card-test
-cd product-card-test
+# Clone the repository (if not done)
+git clone https://github.com/HariVeeraManiKumarVallu/product-card-demo.git
+cd product-card-demo
 
-# Step 2: Install Bootstrap
-npm install bootstrap
+# Install dependencies
+npm install
 
-# Step 3: Add your ProductCard.js and ProductCard.css to the src/ folder
-
-# Step 4: Run the App
+# Run the app locally
 npm start
-=======
-# product-card-demo
->>>>>>> 9a81b7ad9a8c5202680336b4ce9e4e67a76910f0
+
+#Deployment to GitHub Pages
+Make sure homepage is set in package.json as:
+
+"homepage": "https://HariVeeraManiKumarVallu.github.io/product-card-demo"
+
+# Install gh-pages
+npm install gh-pages --save-dev
+
+# Build the project and deploy
+npm run deploy
+The app will be published at:
+https://HariVeeraManiKumarVallu.github.io/product-card-demo
+
+Available Scripts
+npm start — Runs the app in development mode
+npm run build — Builds the app for production
+npm run deploy — Builds and deploys the app to GitHub Pages
+
