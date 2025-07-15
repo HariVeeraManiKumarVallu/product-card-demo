@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 Product Card UI – Frontend Developer Test
 
 This is a **responsive Product Card** UI built using React. It is part of a frontend test assignment to implement a reusable product listing component based on real-world e-commerce logic.
@@ -44,3 +45,6 @@ npm install bootstrap
 
 # Step 4: Run the App
 npm start
+=======
+# product-card-demo
+>>>>>>> 9a81b7ad9a8c5202680336b4ce9e4e67a76910f0
